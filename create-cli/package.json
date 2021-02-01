@@ -1,0 +1,35 @@
+{
+  "name": "nicole-cli",
+  "version": "1.0.0",
+  "description": "脚手架搭建",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nichomehe/cli-tool.git"
+  },
+  "keywords": [
+    "create",
+    "cli"
+  ],
+  "bin": {
+    "hyl-cli": "index.js"
+  },
+  "author": "Nichome",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nichomehe/cli-tool/issues"
+  },
+  "homepage": "https://github.com/nichomehe/cli-tool#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.3.0",
+    "log-symbols": "^4.0.0",
+    "ora": "^4.0.4"
+  }
+}
